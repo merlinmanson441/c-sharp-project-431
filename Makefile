@@ -17,3 +17,5 @@ lint:
 lint-fix:
 	dotnet csharpier format src/App
 
+rec:
+	asciinema rec demo.cast --overwrite
