@@ -24,4 +24,6 @@ public class Engine
     {
         return userAnswer == correctAnswer;
     }
+
+    public static void ProccessAnswer(string? userAnswer, string correctAnswer, string name) { }
 }

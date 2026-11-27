@@ -1,4 +1,5 @@
 namespace App.Games;
+
 public class Calc
 {
     public static void Calculator()

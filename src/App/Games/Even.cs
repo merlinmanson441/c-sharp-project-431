@@ -1,4 +1,5 @@
 namespace App.Games;
+
 public class Even
 {
     public static void Question()

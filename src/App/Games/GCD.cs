@@ -1,4 +1,5 @@
 namespace App.Games;
+
 public class GCD
 {
     public static int NOD(int a, int b)

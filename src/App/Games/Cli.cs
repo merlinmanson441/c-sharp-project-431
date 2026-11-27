@@ -1,3 +1,5 @@
+namespace App.Games;
+
 public class Cli
 {
     public static string Greeting()
