@@ -1,3 +1,4 @@
+namespace App.Games;
 public class Even
 {
     public static void Question()
@@ -13,23 +14,23 @@ public class Even
             var random = RandomGenerator.Generator(1, 101);
             Console.WriteLine("Question: " + random);
             Console.Write("Your answer: ");
-            var userAnswer = Console.ReadLine();
+            string? userAnswer = Console.ReadLine();
 
-            var checkAnswer = random % 2 == 0 ? "yes" : "no";
+            string correctAnswer = random % 2 == 0 ? "yes" : "no";
 
-            if (Cli.CheckAnswer(userAnswer, checkAnswer))
+            if (Engine.CheckAnswer(userAnswer, correctAnswer))
             {
                 i++;
-                Cli.AnswerCorrect();
+                Engine.AnswerCorrect();
             }
             else
             {
-                Cli.AnswerWrong(userAnswer, checkAnswer, userName);
+                Engine.AnswerWrong(userAnswer, correctAnswer, userName);
                 break;
             }
             if (i == countAnswer + 1)
             {
-                Console.WriteLine($"Congratulations, {userName}!");
+                Engine.Congratulations(userName);
                 break;
             }
         }

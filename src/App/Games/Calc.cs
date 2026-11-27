@@ -1,3 +1,4 @@
+namespace App.Games;
 public class Calc
 {
     public static void Calculator()
@@ -35,19 +36,19 @@ public class Calc
             Console.Write("Your answer: ");
             string? userAnswer = Console.ReadLine();
 
-            if (Cli.CheckAnswer(userAnswer, result.ToString()))
+            if (Engine.CheckAnswer(userAnswer, result.ToString()))
             {
-                Cli.AnswerCorrect();
+                Engine.AnswerCorrect();
                 i++;
             }
             else
             {
-                Cli.AnswerWrong(userAnswer, result.ToString(), userName);
+                Engine.AnswerWrong(userAnswer, result.ToString(), userName);
                 break;
             }
             if (i == countAnswer + 1)
             {
-                Cli.Congratulations(userName);
+                Engine.Congratulations(userName);
                 break;
             }
         }
