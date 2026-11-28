@@ -9,6 +9,7 @@ Console.WriteLine("2 - Even");
 Console.WriteLine("3 - Calc");
 Console.WriteLine("4 - GCD");
 Console.WriteLine("5 - Progression");
+Console.WriteLine("6 - Prime");
 Console.WriteLine("0 - Exit");
 Console.Write("Your choice: ");
 
@@ -25,15 +26,19 @@ switch (choice)
         break;
 
     case "3":
-        Calc.Calculator();
+        Calc.Question();
         break;
 
     case "4":
-        GCD.GamesNOD();
+        GCD.Question();
         break;
 
     case "5":
-        Progression.GamesProgression();
+        Progression.Question();
+        break;
+
+    case "6":
+        Prime.Question();
         break;
 
     case "0":

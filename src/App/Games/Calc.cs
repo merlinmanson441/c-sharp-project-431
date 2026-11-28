@@ -2,7 +2,7 @@ namespace App.Games;
 
 public class Calc
 {
-    public static void Calculator()
+    public static void Question()
     {
         string userName = Cli.Greeting();
         Console.WriteLine("What is the result of the expression?");

@@ -15,7 +15,7 @@ public class GCD
         return a;
     }
 
-    public static void GamesNOD()
+    public static void Question()
     {
         var min = 1;
         var max = 101;

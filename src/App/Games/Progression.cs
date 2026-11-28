@@ -17,7 +17,7 @@ public class Progression
         return range;
     }
 
-    public static void GamesProgression()
+    public static void Question()
     {
         int countAnswer = 3;
         var i = 1;
