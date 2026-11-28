@@ -17,7 +17,7 @@ public class Even
             Console.Write("Your answer: ");
             string? userAnswer = Console.ReadLine();
 
-            string correctAnswer = random % 2 == 0 ? "yes" : "no";
+            string correctAnswer = Engine.IsEven(random) ? "yes" : "no";
 
             if (Engine.CheckAnswer(userAnswer, correctAnswer))
             {

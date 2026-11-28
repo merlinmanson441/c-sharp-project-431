@@ -25,5 +25,8 @@ public class Engine
         return userAnswer == correctAnswer;
     }
 
-    public static void ProccessAnswer(string? userAnswer, string correctAnswer, string name) { }
+    public static bool IsEven(int number)
+    {
+        return number % 2 == 0;
+    }
 }
