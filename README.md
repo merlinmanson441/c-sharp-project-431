@@ -36,6 +36,7 @@ cd c-sharp-project-431
 ## О Хекслете
 
 [Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
-https://asciinema.org/connect/2010fec5-38c6-4d7b-8e2a-1b84e21c58b8
-https://asciinema.org/connect/2010fec5-38c6-4d7b-8e2a-1b84e21c58b8
-https://asciinema.org/connect/2010fec5-38c6-4d7b-8e2a-1b84e21c58b8
+https://asciinema.org/a/aorJBd283PD9nVMq
+https://asciinema.org/a/RndLBshuTLX93DSH
+https://asciinema.org/a/ox3yqSTEhpUuvCh6
+https://asciinema.org/a/nVEBeGpOETVNGKOa
