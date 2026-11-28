@@ -8,6 +8,7 @@ Console.WriteLine("1 - Greet");
 Console.WriteLine("2 - Even");
 Console.WriteLine("3 - Calc");
 Console.WriteLine("4 - GCD");
+Console.WriteLine("5 - Progression");
 Console.WriteLine("0 - Exit");
 Console.Write("Your choice: ");
 
@@ -29,6 +30,10 @@ switch (choice)
 
     case "4":
         GCD.GamesNOD();
+        break;
+
+    case "5":
+        Progression.GamesProgression();
         break;
 
     case "0":
